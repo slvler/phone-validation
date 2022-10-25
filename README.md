@@ -3,6 +3,8 @@
 <!-- Task List -->
 * [x] Magic Method kullanımları
 
+---
+
 
 #### php de yer alan magic methodlar aşağıdaki gibidir.
 
@@ -24,4 +26,12 @@
 - __clone(), 
 - __debugInfo().
 
+
+
+
+
+---
+
+- Kaynaklar
+- https://mahshad.medium.com/php-magic-methods-dae1847c5cef
 
