@@ -1,5 +1,8 @@
 # slvler - Phone Validation
 
+[![Latest Stable Version](http://poser.pugx.org/slvler/phone-validation/v)](https://packagist.org/packages/slvler/phone-validation)
+[![Latest Unstable Version](http://poser.pugx.org/slvler/phone-validation/v/unstable)](https://packagist.org/packages/slvler/phone-validation)
+[![License](http://poser.pugx.org/slvler/phone-validation/license)](https://packagist.org/packages/slvler/phone-validation)
 
 
 Phone Validation API for app.abstractapi.com
