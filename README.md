@@ -1,5 +1,6 @@
 # slvler - Phone Validation
 
+[![tests](https://github.com/slvler/phone-validation/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/phone-validation/actions/workflows/tests.yml)
 [![Latest Stable Version](http://poser.pugx.org/slvler/phone-validation/v)](https://packagist.org/packages/slvler/phone-validation)
 [![Latest Unstable Version](http://poser.pugx.org/slvler/phone-validation/v/unstable)](https://packagist.org/packages/slvler/phone-validation)
 [![License](http://poser.pugx.org/slvler/phone-validation/license)](https://packagist.org/packages/slvler/phone-validation)
