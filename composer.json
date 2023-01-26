@@ -1,0 +1,41 @@
+{
+    "name": "slvler/phone-validation",
+    "license": "MIT",
+    "description": "Phone Validation API for app.abstractapi.com",
+    "type": "package",
+    "authors": [
+        {
+            "name": "slvler",
+            "email": "slvler@proton.me"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "slvler\\PhoneValidation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "slvler\\PhoneValidation\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.18.0",
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "slvler\\PhoneValidation\\PhoneValidationServiceProvider"
+            ],
+            "aliases": {
+                "PhoneValidation": "slvler\\PhoneValidation\\Facades\\PhoneValidation"
+            }
+        }
+    }
+}
