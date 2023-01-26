@@ -1,10 +1,5 @@
 # slvler - Phone Validation
 
-[![tests](https://github.com/slvler/etherscan-service/actions/workflows/tests.yml/badge.svg)](https://github.com/slvler/etherscan-service/actions/workflows/tests.yml)
-[![Latest Stable Version](http://poser.pugx.org/slvler/ether/v)](https://packagist.org/packages/slvler/ether)
-[![Latest Unstable Version](http://poser.pugx.org/slvler/ether/v/unstable)](https://packagist.org/packages/slvler/ether)
-[![License](https://img.shields.io/github/license/slvler/etherscan-service)](https://packagist.org/packages/slvler/ether)
-
 
 
 Phone Validation API for app.abstractapi.com
@@ -23,7 +18,6 @@ To install this package tou can use composer:
 ```bash
     composer require slvler/phone-validation
 ```
-
 ## Usage
 
 - First, you should extract the config/phone.php file to the config folder. 
@@ -35,9 +29,9 @@ To install this package tou can use composer:
 - API key to be obtained from app.abstractapi.com address should be declared. This is your private API key, specific to this API.
 
 ```php
-    'ether' => [
-        'etherscan_url' => 'https://phonevalidation.abstractapi.com/',
-        'etherscan_key' => 'XXXXXXXXXXXXXXXXXXXXXXXX'
+    'phone' => [
+        'base_url' => 'https://phonevalidation.abstractapi.com/',
+        'api_key' => 'XXXXXXXXXXXXXXXXXXXXXXXX'
     ]
 ```
 
@@ -84,4 +78,4 @@ To install this package tou can use composer:
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/slvler/etherscan-service/blob/main/README.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/slvler/phone-validation/blob/main/README.md) for more information.
