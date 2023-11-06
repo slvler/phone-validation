@@ -40,5 +40,7 @@
                 "PhoneValidation": "slvler\\PhoneValidation\\Facades\\PhoneValidation"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
