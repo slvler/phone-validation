@@ -2,7 +2,7 @@
 
 return [
     'phone' => [
-        'base_url' => 'https://phonevalidation.abstractapi.com/',
-        'api_key' => 'XXXXXXXXXXXXXXXXXXXXXX',
+        'base_url' => env('ABSTRACT_BASE_URL'),
+        'api_key' => env('ABSTRACT_API_KEY'),
     ],
 ];
