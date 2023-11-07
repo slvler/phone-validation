@@ -30,13 +30,13 @@ To install this package tou can use composer:
     php artisan vendor:publish --tag=phone
 ```
 
-- API key to be obtained from app.abstractapi.com address should be declared. This is your private API key, specific to this API.
+
+- First of all we'll add the API key and API Url of the service we're using to our .env file of our project. If you don't have an account yet on app.abstractapi.com, you should create one. Once you have an account you can copy your API key from the dashboard page and put it into you .env file.
+
 
 ```php
-    'phone' => [
-        'base_url' => 'https://phonevalidation.abstractapi.com/',
-        'api_key' => 'XXXXXXXXXXXXXXXXXXXXXXXX'
-    ]
+    ABSTRACT_BASE_URL=https://phonevalidation.abstractapi.com
+    ABSTRACT_API_KEY=YOUR-API-KEY
 ```
 
 - Abstract's Phone Number Validation and Verification API simply requires your unique API key and the phone number you'd like to check:
