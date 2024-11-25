@@ -15,7 +15,7 @@ Validating and verifying phone numbers is a critical step to reducing the chance
 
 ## Requirements
 - PHP 8.1
-- Laravel 9.x | 10.x
+- Laravel 9.x | 10.x | 11.x
 
 ## Installation
 To install this package tou can use composer:
