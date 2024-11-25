@@ -1,8 +1,8 @@
 <?php
 
-namespace slvler\PhoneValidation\Tests\Unit;
+namespace Slvler\PhoneValidation\Tests\Unit;
 
-use slvler\PhoneValidation\PhoneValidationServiceProvider;
+use Slvler\PhoneValidation\PhoneValidationServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
@@ -18,7 +18,5 @@ class TestCase extends \Orchestra\Testbench\TestCase
         ];
     }
 
-    protected function getEnvironmentSetUp($app)
-    {
-    }
+    protected function getEnvironmentSetUp($app) {}
 }

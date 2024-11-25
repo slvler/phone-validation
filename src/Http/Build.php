@@ -1,13 +1,14 @@
 <?php
 
-namespace slvler\PhoneValidation\Http;
+declare(strict_types=1);
+
+namespace Slvler\PhoneValidation\Http;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 
 class Build implements BuildAdapter
 {
-
     protected ClientInterface $http;
 
     protected array $options = [];
@@ -50,5 +51,4 @@ class Build implements BuildAdapter
 
         return new HttpResponse($response);
     }
-
 }

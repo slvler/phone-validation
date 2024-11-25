@@ -1,6 +1,8 @@
 <?php
 
-namespace slvler\PhoneValidation\Facades;
+declare(strict_types=1);
+
+namespace Slvler\PhoneValidation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

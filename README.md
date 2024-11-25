@@ -13,39 +13,33 @@ It's very simple to use: you only need to submit your API key and a phone number
 
 Validating and verifying phone numbers is a critical step to reducing the chances of low quality data and fraudulent or risky users in your website or application.
 
+## Requirements
+- PHP 8.1
+- Laravel 9.x | 10.x
 
 ## Installation
-
 To install this package tou can use composer:
-
 ```bash
 composer require slvler/phone-validation
 ```
+
 ## Usage
-
-- First, you should extract the config/phone.php file to the config folder. 
-
+- First, you should extract the config/phone.php file to the config folder.
 ```php
 php artisan vendor:publish --tag=phone
 ```
-
 - First of all we'll add the API key and API Url of the service we're using to our .env file of our project. If you don't have an account yet on app.abstractapi.com, you should create one. Once you have an account you can copy your API key from the dashboard page and put it into you .env file.
-
 ```php
-ABSTRACT_BASE_URL=https://phonevalidation.abstractapi.com
+ABSTRACT_BASE_URL=https:https://phonevalidation.abstractapi.com
 ABSTRACT_API_KEY=YOUR-API-KEY
 ```
-
 - Abstract's Phone Number Validation and Verification API simply requires your unique API key and the phone number you'd like to check:
-
 ```php
-use slvler\PhoneValidation\Phone;
+use Slvler\PhoneValidation\Phone;
 
 Phone::getData('14152007986');
 ```
-
 - This was a successful request, so the valid phone number and details associated with it are returned below:
-
 ```json
 {
     "phone": "14152007986",
@@ -67,16 +61,17 @@ Phone::getData('14152007986');
 }
 ```
 
-### Testing
-
+## Testing
 ```bash
 composer test
 ```
 
 ## Credits
-
 - [slvler](https://github.com/slvler)
 
 ## License
+The MIT License (MIT). Please see [License File](https://github.com/slvler/phone-validation/blob/main/LICENSE.md) for more information.
 
-The MIT License (MIT). Please see [License File](https://github.com/slvler/phone-validation/blob/main/README.md) for more information.
+## Contributing
+You're very welcome to contribute.
+Please see [CONTRIBUTING](https://github.com/slvler/phone-validation/blob/main/CONTRIBUTING.md) for details.

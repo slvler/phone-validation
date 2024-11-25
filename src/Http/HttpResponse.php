@@ -1,6 +1,8 @@
 <?php
 
-namespace slvler\PhoneValidation\Http;
+declare(strict_types=1);
+
+namespace Slvler\PhoneValidation\Http;
 
 class HttpResponse
 {
