@@ -70,7 +70,7 @@ composer test
 - [slvler](https://github.com/slvler)
 
 ## License
-The MIT License (MIT). Please see [License File](https://github.com/slvler/phone-validation/blob/main/LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/slvler/phone-validation/blob/main/LICENSE) for more information.
 
 ## Contributing
 You're very welcome to contribute.
